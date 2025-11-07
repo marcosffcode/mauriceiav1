@@ -246,6 +246,123 @@
         </div>
     </section>
 
+<!-- Carrossel de Imagens -->
+<section class="py-20 relative overflow-hidden bg-gradient-to-br from-white via-[#fdf9f8] to-[#f7f0ee]">
+    <div class="absolute top-10 -right-20 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 -left-20 w-80 h-80 bg-accent/3 rounded-full blur-3xl"></div>
+    
+    <div class="max-w-[1000px] mx-auto px-6 lg:px-8 relative z-10 mb-16">
+        <div class="flex flex-col items-center text-center">
+            <h2 class="font-serif text-[32px] lg:text-[40px] font-black leading-[1.1] mb-4 text-text-dark tracking-tight">
+                Nossos Procedimentos
+            </h2>
+            <p class="text-lg text-text-secondary leading-[1.6] max-w-2xl">
+                Conheça alguns dos tratamentos que realizamos
+            </p>
+        </div>
+    </div>
+
+    <!-- Carrossel Container -->
+    <div class="relative">
+        <!-- Overlay gradiente nas bordas -->
+        <div class="absolute left-0 top-0 w-20 h-full bg-gradient-to-r from-white to-transparent z-10"></div>
+        <div class="absolute right-0 top-0 w-20 h-full bg-gradient-to-l from-white to-transparent z-10"></div>
+        
+        <!-- Carrossel Track -->
+        <div class="flex animate-scroll-infinite space-x-6 py-4">
+            <!-- Imagem 1 -->
+            <div class="flex-shrink-0 w-64 h-64 lg:w-80 lg:h-80 group">
+                <div class="w-full h-full rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] transition-all duration-300 group-hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)]">
+                    <img src="1.webp" 
+                         alt="Limpeza de pele profissional" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+            </div>
+
+            <!-- Imagem 2 -->
+            <div class="flex-shrink-0 w-64 h-64 lg:w-80 lg:h-80 group">
+                <div class="w-full h-full rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] transition-all duration-300 group-hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)]">
+                    <img src="2.webp" 
+                         alt="Drenagem linfática" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+            </div>
+
+            <!-- Imagem 3 -->
+            <div class="flex-shrink-0 w-64 h-64 lg:w-80 lg:h-80 group">
+                <div class="w-full h-full rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] transition-all duration-300 group-hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)]">
+                    <img src="3.webp" 
+                         alt="Massagem relaxante" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+            </div>
+
+            <!-- Imagem 4 -->
+            <div class="flex-shrink-0 w-64 h-64 lg:w-80 lg:h-80 group">
+                <div class="w-full h-full rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] transition-all duration-300 group-hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)]">
+                    <img src="4.webp" 
+                         alt="Tratamento facial especializado" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+            </div>
+
+            <!-- Imagem 5 -->
+            <div class="flex-shrink-0 w-64 h-64 lg:w-80 lg:h-80 group">
+                <div class="w-full h-full rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] transition-all duration-300 group-hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)]">
+                    <img src="1.webp" 
+                         alt="Cuidados pós-operatórios" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+            </div>
+
+            <!-- Imagens duplicadas para o efeito de loop infinito -->
+            <!-- Imagem 1 (duplicada) -->
+            <div class="flex-shrink-0 w-64 h-64 lg:w-80 lg:h-80 group">
+                <div class="w-full h-full rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] transition-all duration-300 group-hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)]">
+                    <img src="2.webp" 
+                         alt="Limpeza de pele profissional" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+            </div>
+
+            <!-- Imagem 2 (duplicada) -->
+            <div class="flex-shrink-0 w-64 h-64 lg:w-80 lg:h-80 group">
+                <div class="w-full h-full rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] transition-all duration-300 group-hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)]">
+                    <img src="3.webp" 
+                         alt="Drenagem linfática" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes scroll-infinite {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-256px * 5 - 1.5rem * 5));
+            }
+        }
+        @media (min-width: 1024px) {
+            @keyframes scroll-infinite {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(calc(-320px * 5 - 1.5rem * 5));
+                }
+            }
+        }
+        .animate-scroll-infinite {
+            animation: scroll-infinite 40s linear infinite;
+        }
+        
+    </style>
+</section>
+    
+
     <!-- Services Section -->
     <section id="servicos" class="py-20 relative overflow-hidden bg-gradient-to-br from-white via-[#fdf9f8] to-[#f7f0ee]">
         <div class="absolute top-10 -right-20 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
@@ -607,5 +724,6 @@
 </body>
 
 </html>
+
 
 
