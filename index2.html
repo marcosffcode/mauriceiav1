@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mauriceia Babo — Estética facial e corporal em Porto Nacional/TO. Agende sua avaliação online e cuide da sua pele com profissionais experientes.">
+    <meta name="keywords" content="estética, Porto Nacional, drenagem linfática, limpeza de pele, pós-operatório, massagem">
+    
+    <title>Mauriceia Babo - Estética Facial & Corporal | Porto Nacional/TO</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bg-primary': '#F4EAE6',
+                        'accent': '#CFAAA2',
+                        'text-dark': '#3A2E2E',
+                        'text-secondary': '#7A6A67',
+                    },
+                    fontFamily: {
+                        'serif': ['Inter', 'serif'],
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .animate-slide-in {
+            animation: slideIn 600ms ease-out;
+        }
+    </style>
+</head>
+<body class="font-sans bg-bg-primary text-text-dark overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <section id="inicio" class="py-20 relative overflow-hidden">
+    <!-- Background com efeito sutil -->
+    <div class="absolute inset-0 bg-gradient-to-br from-white via-[#fdf9f8] to-[#f7f0ee] opacity-95"></div>
+    <div class="absolute top-10 right-10 w-72 h-72 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 left-10 w-96 h-96 bg-accent/3 rounded-full blur-3xl"></div>
+    
+    <div class="max-w-[1000px] mx-auto px-6 lg:px-8 relative z-10">
+        <!-- Logo -->
+        <div class="flex justify-center mb-12">
+    <img 
+        src="logo marrom.png" 
+        alt="Logo Mauriceia Babo" 
+        class="max-w-[160px] w-full h-auto object-contain"
+    >
+</div>
+
+
+        <div class="flex flex-col items-center text-center">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="font-serif text-[38px] lg:text-[48px] font-black leading-[1.1] mb-6 text-text-dark tracking-tight">
+                    Cuidados estéticos que transformam sua pele e bem-estar
+                </h1>
+                <p class="text-lg text-text-secondary mb-8 leading-[1.6] max-w-2xl mx-auto">
+                    Tratamentos faciais e corporais personalizados em Porto Nacional/TO
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+                    <a href="#agendamento" class="group inline-flex items-center justify-center gap-3 py-4 px-8 bg-accent text-white no-underline rounded-full font-bold transition-all duration-300 shadow-[0_8px_25px_rgba(207,170,162,0.35)] hover:scale-105 hover:shadow-[0_12px_35px_rgba(207,170,162,0.5)] text-center min-w-[200px]">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                        Agendar avaliação
+                    </a>
+                    <a href="#localizacao" class="group inline-flex items-center justify-center gap-2 text-text-dark font-semibold transition-colors duration-300 hover:text-accent py-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        Ver localização
+                    </a>
+                </div>
+                
+                <!-- Ícones de benefícios -->
+                <div class="flex flex-wrap gap-6 justify-center mb-16 pt-8 border-t border-gray-200">
+                    <div class="flex items-center gap-2 text-text-secondary">
+                        <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-sm font-medium">Resultados comprovados</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-text-secondary">
+                        <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                        </svg>
+                        <span class="text-sm font-medium">Ambiente seguro</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foto redonda e menor -->
+            <div class="animate-slide-in">
+                <div class="relative">
+                    <img src="foto (1).webp" 
+                         alt="Mauriceia Babo atendendo paciente com tratamento facial especializado" 
+                         loading="lazy" 
+                         class="w-64 h-64 rounded-full shadow-[0_25px_50px_rgba(58,46,46,0.2)] transform transition-transform duration-500 hover:scale-105 border-4 border-white">
+                    <!-- Elemento decorativo -->
+                    <div class="absolute -bottom-3 -right-3 w-16 h-16 bg-accent/10 rounded-full rotate-12 z-0"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+<section class="py-20 relative overflow-hidden bg-gradient-to-br from-white via-[#fdf9f8] to-[#f7f0ee]">
+    <div class="absolute top-1/4 -right-20 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-1/4 -left-20 w-80 h-80 bg-accent/3 rounded-full blur-3xl"></div>
+    
+    <div class="max-w-[1000px] mx-auto px-6 lg:px-8 relative z-10">
+        <div class="flex flex-col items-center text-center">
+            <h2 class="font-serif text-[32px] lg:text-[40px] font-black leading-[1.1] mb-6 text-text-dark tracking-tight max-w-3xl">
+                Estética Facial & Corporal
+            </h2>
+            <p class="text-lg text-text-secondary leading-[1.6] max-w-2xl mx-auto">
+                Atendimento personalizado com foco em resultados seguros e naturais. Especialidade em drenagem linfática, pós-operatório e limpezas de pele.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-20 relative overflow-hidden bg-gradient-to-br from-white via-[#fdf9f8] to-[#f7f0ee]">
+    <div class="absolute top-10 -right-20 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 -left-20 w-80 h-80 bg-accent/3 rounded-full blur-3xl"></div>
+    
+    <div class="max-w-[1000px] mx-auto px-6 lg:px-8 relative z-10">
+        <div class="flex flex-col items-center text-center mb-16">
+            <h2 class="font-serif text-[32px] lg:text-[40px] font-black leading-[1.1] mb-4 text-text-dark tracking-tight">
+                Nossos Serviços
+            </h2>
+            <p class="text-lg text-text-secondary leading-[1.6] max-w-2xl">
+                Tratamentos especializados para cuidar da sua beleza e bem-estar
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="group bg-white p-8 rounded-3xl text-center transition-all duration-300 hover:-translate-y-2 shadow-[0_10px_40px_rgba(58,46,46,0.08)] hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)] border border-white/50">
+                <div class="w-20 h-20 mx-auto mb-6 bg-accent/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-10 h-10 text-accent" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="32" cy="28" r="12" stroke="currentColor" stroke-width="2"/>
+                        <path d="M20 48C20 40 24 36 32 36C40 36 44 40 44 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3 class="font-serif text-2xl font-bold mb-4 text-text-dark">Limpeza de Pele</h3>
+                <p class="text-text-secondary mb-6 leading-[1.6] text-base">Tratamento profundo que remove impurezas e renova sua pele com técnicas especializadas para uma aparência revitalizada.</p>
+                <a href="#agendamento" class="group/btn inline-flex items-center justify-center gap-2 py-3 px-6 bg-accent text-white no-underline rounded-full font-semibold transition-all duration-300 shadow-[0_8px_25px_rgba(207,170,162,0.35)] hover:scale-105 hover:shadow-[0_12px_35px_rgba(207,170,162,0.5)] text-sm">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    Agendar
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="group bg-white p-8 rounded-3xl text-center transition-all duration-300 hover:-translate-y-2 shadow-[0_10px_40px_rgba(58,46,46,0.08)] hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)] border border-white/50">
+                <div class="w-20 h-20 mx-auto mb-6 bg-accent/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-10 h-10 text-accent" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 10C24 10 18 16 18 24C18 28 20 32 24 34L24 50C24 54 28 56 32 56C36 56 40 54 40 50L40 34C44 32 46 28 46 24C46 16 40 10 32 10Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M28 20L36 20M28 26L36 26M28 32L36 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3 class="font-serif text-2xl font-bold mb-4 text-text-dark">Massagens & Drenagem</h3>
+                <p class="text-text-secondary mb-6 leading-[1.6] text-base">Técnicas de massagem e drenagem linfática para relaxamento, redução de inchaços e bem-estar completo.</p>
+                <a href="#agendamento" class="group/btn inline-flex items-center justify-center gap-2 py-3 px-6 bg-accent text-white no-underline rounded-full font-semibold transition-all duration-300 shadow-[0_8px_25px_rgba(207,170,162,0.35)] hover:scale-105 hover:shadow-[0_12px_35px_rgba(207,170,162,0.5)] text-sm">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    Agendar
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="group bg-white p-8 rounded-3xl text-center transition-all duration-300 hover:-translate-y-2 shadow-[0_10px_40px_rgba(58,46,46,0.08)] hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)] border border-white/50">
+                <div class="w-20 h-20 mx-auto mb-6 bg-accent/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-10 h-10 text-accent" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 12L38 24L52 26L42 36L44 50L32 44L20 50L22 36L12 26L26 24L32 12Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <circle cx="32" cy="32" r="8" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3 class="font-serif text-2xl font-bold mb-4 text-text-dark">Pós-operatório</h3>
+                <p class="text-text-secondary mb-6 leading-[1.6] text-base">Cuidados especializados para recuperação pós-cirúrgica com acompanhamento dedicado e técnicas avançadas.</p>
+                <a href="#agendamento" class="group/btn inline-flex items-center justify-center gap-2 py-3 px-6 bg-accent text-white no-underline rounded-full font-semibold transition-all duration-300 shadow-[0_8px_25px_rgba(207,170,162,0.35)] hover:scale-105 hover:shadow-[0_12px_35px_rgba(207,170,162,0.5)] text-sm">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    Agendar
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Location Section -->
+    <section id="localizacao" class="py-20 relative overflow-hidden bg-gradient-to-br from-white via-[#fdf9f8] to-[#f7f0ee]">
+    <div class="absolute top-10 -right-20 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 -left-20 w-80 h-80 bg-accent/3 rounded-full blur-3xl"></div>
+    
+    <div class="max-w-[1000px] mx-auto px-6 lg:px-8 relative z-10 mb-16">
+        <div class="flex flex-col items-center text-center">
+            <h2 class="font-serif text-[32px] lg:text-[40px] font-black leading-[1.1] mb-4 text-text-dark tracking-tight">
+                Atendemos em Porto Nacional
+            </h2>
+            <p class="text-lg text-text-secondary leading-[1.6] max-w-2xl">
+                Venha nos conhecer e transforme sua experiência em bem-estar
+            </p>
+        </div>
+    </div>
+
+    <!-- Container para desktop com mapa em largura total -->
+    <div class="hidden lg:block">
+        <div class="grid grid-cols-2">
+            <div class="bg-white/80 backdrop-blur-sm py-16 px-12">
+                <div class="max-w-md mx-auto">
+                    <div class="flex gap-4 mb-8 items-start">
+                        <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-serif text-xl font-bold mb-2 text-text-dark">Endereço</h3>
+                            <p class="text-text-secondary leading-relaxed">Porto Nacional, Tocantins<br>Consulte endereço exato pelo WhatsApp</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 mb-8 items-start">
+                        <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-serif text-xl font-bold mb-2 text-text-dark">Horário de atendimento</h3>
+                            <p class="text-text-secondary leading-relaxed">Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 13h</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 mb-8 items-start">
+                        <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.01 15.38C18.78 15.38 17.59 15.18 16.48 14.82C16.13 14.7 15.74 14.79 15.47 15.06L13.9 17.03C11.07 15.68 8.42 13.13 7.01 10.2L8.96 8.54C9.23 8.26 9.31 7.87 9.2 7.52C8.83 6.41 8.64 5.22 8.64 3.99C8.64 3.45 8.19 3 7.65 3H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82V16.37C21 15.83 20.55 15.38 20.01 15.38Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="font-serif text-xl font-bold mb-2 text-text-dark">Telefone</h3>
+                            <p><a href="tel:+5563999999999" class="text-text-secondary no-underline hover:text-accent transition-colors duration-300">(63) 99999-9999</a></p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5563992435830" class="group inline-flex items-center justify-center gap-3 w-full py-4 px-8 bg-[#25D366] text-white no-underline rounded-full font-bold transition-all duration-300 shadow-[0_8px_25px_rgba(37,211,102,0.3)] hover:scale-105 hover:bg-[#20BA59] hover:shadow-[0_12px_35px_rgba(37,211,102,0.4)]" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382C17.015 14.153 14.98 13.146 14.572 13.015C14.164 12.884 13.868 12.819 13.572 13.277C13.276 13.735 12.487 14.692 12.24 14.988C11.993 15.284 11.746 15.333 11.289 15.055C10.832 14.826 9.39 14.363 7.693 12.854C6.364 11.682 5.493 10.244 5.246 9.786C4.999 9.328 5.221 9.097 5.45 8.868C5.654 8.664 5.907 8.361 6.136 8.114C6.365 7.867 6.438 7.669 6.569 7.373C6.7 7.077 6.635 6.83 6.521 6.601C6.407 6.372 5.493 4.337 5.134 3.421C4.775 2.505 4.416 2.628 4.169 2.628H3.397C3.101 2.628 2.643 2.742 2.235 3.2C1.827 3.658 0.771 4.665 0.771 6.7C0.771 8.735 2.284 10.721 2.513 11.017C2.742 11.313 5.493 15.525 9.614 17.364C10.537 17.758 11.265 17.979 11.834 18.151C12.757 18.447 13.608 18.398 14.283 18.284C15.033 18.16 16.679 17.413 17.038 16.591C17.397 15.769 17.397 15.055 17.283 14.875C17.169 14.695 16.929 14.611 16.472 14.382ZM12.145 21.749H12.096C10.341 21.749 8.635 21.282 7.144 20.386L6.785 20.165L3.299 21.059L4.193 17.66L3.94 17.276C2.963 15.736 2.45 13.981 2.45 12.178C2.45 7.225 6.473 3.2 11.426 3.2C13.818 3.2 16.063 4.091 17.766 5.794C19.469 7.497 20.36 9.742 20.36 12.134C20.36 17.087 16.337 21.11 11.384 21.11M20.998 3.002C18.902 0.906 16.063 -0.2 13.072 -0.2C6.374 -0.2 0.906 5.268 0.906 11.966C0.906 14.077 1.487 16.139 2.596 17.931L0.8 24L6.982 22.229C8.708 23.263 10.696 23.804 12.72 23.804H12.769C19.467 23.804 24.935 18.336 24.935 11.638C24.935 8.647 23.829 5.808 21.733 3.712" fill="currentColor"/>
+                        </svg>
+                        Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="h-[600px]">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.4655195531423!2d-48.399796024175075!3d-10.698531718267017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b0deafcf133bb%3A0x172771d08336e6f!2sMAURICEIA%20BABO%20%7C%20EST%C3%89TICA%20FACIAL%20E%20CORPORAL!5e0!3m2!1spt-BR!2sbr!4v1762472888791!5m2!1spt-BR!2sbr" 
+                    class="w-full h-full border-none" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Versão mobile -->
+    <div class="lg:hidden max-w-[1000px] mx-auto px-6 lg:px-8 relative z-10">
+        <div class="bg-white p-8 rounded-3xl shadow-[0_10px_40px_rgba(58,46,46,0.08)] mb-8">
+            <div class="flex gap-4 mb-6 items-start">
+                <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                    <svg class="w-6 h-6 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl font-bold mb-2 text-text-dark">Endereço</h3>
+                    <p class="text-text-secondary leading-relaxed">Porto Nacional, Tocantins<br>Consulte endereço exato pelo WhatsApp</p>
+                </div>
+            </div>
+            <div class="flex gap-4 mb-6 items-start">
+                <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                    <svg class="w-6 h-6 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl font-bold mb-2 text-text-dark">Horário de atendimento</h3>
+                    <p class="text-text-secondary leading-relaxed">Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 13h</p>
+                </div>
+            </div>
+            <div class="flex gap-4 mb-6 items-start">
+                <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                    <svg class="w-6 h-6 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.01 15.38C18.78 15.38 17.59 15.18 16.48 14.82C16.13 14.7 15.74 14.79 15.47 15.06L13.9 17.03C11.07 15.68 8.42 13.13 7.01 10.2L8.96 8.54C9.23 8.26 9.31 7.87 9.2 7.52C8.83 6.41 8.64 5.22 8.64 3.99C8.64 3.45 8.19 3 7.65 3H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82V16.37C21 15.83 20.55 15.38 20.01 15.38Z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl font-bold mb-2 text-text-dark">Telefone</h3>
+                    <p><a href="tel:+5563999999999" class="text-text-secondary no-underline hover:text-accent transition-colors duration-300">(63) 99999-9999</a></p>
+                </div>
+            </div>
+            <a href="https://wa.me/5563992435830" class="group inline-flex items-center justify-center gap-3 w-full py-4 px-8 bg-[#25D366] text-white no-underline rounded-full font-bold transition-all duration-300 shadow-[0_8px_25px_rgba(37,211,102,0.3)] hover:scale-105 hover:bg-[#20BA59] hover:shadow-[0_12px_35px_rgba(37,211,102,0.4)]" target="_blank" rel="noopener">
+                                Falar no WhatsApp
+            </a>
+        </div>
+        <div class="rounded-3xl overflow-hidden shadow-[0_10px_40px_rgba(58,46,46,0.08)] aspect-video">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.4655195531423!2d-48.399796024175075!3d-10.698531718267017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b0deafcf133bb%3A0x172771d08336e6f!2sMAURICEIA%20BABO%20%7C%20EST%C3%89TICA%20FACIAL%20E%20CORPORAL!5e0!3m2!1spt-BR!2sbr!4v1762472888791!5m2!1spt-BR!2sbr" 
+                class="w-full h-full border-none" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonials Section -->
+    <!-- Testimonials Section -->
+<section class="py-20 relative overflow-hidden bg-gradient-to-br from-white via-[#fdf9f8] to-[#f7f0ee]">
+    <div class="absolute top-10 -right-20 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 -left-20 w-80 h-80 bg-accent/3 rounded-full blur-3xl"></div>
+    
+    <div class="max-w-[1000px] mx-auto px-6 lg:px-8 relative z-10">
+        <div class="flex flex-col items-center text-center mb-16">
+            <h2 class="font-serif text-[32px] lg:text-[40px] font-black leading-[1.1] mb-4 text-text-dark tracking-tight">
+                O que dizem nossos clientes
+            </h2>
+            <p class="text-lg text-text-secondary leading-[1.6] max-w-2xl">
+                Confira a experiência de quem já transformou sua pele e bem-estar
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- Testimonial 1 -->
+            <div class="group bg-white p-8 rounded-3xl text-center transition-all duration-300 hover:-translate-y-2 shadow-[0_10px_40px_rgba(58,46,46,0.08)] hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)] border border-white/50">
+                <div class="flex flex-col items-center mb-6">
+                    <div class="w-20 h-20 rounded-full bg-accent/20 mb-4 overflow-hidden border-4 border-white shadow-lg">
+                        <img src="data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23CFAAA2'/%3E%3Ccircle cx='40' cy='32' r='12' fill='%23FFFFFF'/%3E%3Cpath d='M20 56C20 48 24 44 32 44C40 44 44 48 44 56' fill='%23FFFFFF'/%3E%3C/svg%3E" 
+                             alt="Ana P." 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-text-dark">Ana P.</h3>
+                </div>
+                <p class="text-text-secondary leading-[1.6] text-base italic relative">
+                    <svg class="w-6 h-6 text-accent/30 absolute -top-2 -left-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/>
+                    </svg>
+                    "Recuperei a confiança após o pós-operatório. Atendimento cuidadoso e resultados visíveis."
+                </p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="group bg-white p-8 rounded-3xl text-center transition-all duration-300 hover:-translate-y-2 shadow-[0_10px_40px_rgba(58,46,46,0.08)] hover:shadow-[0_20px_50px_rgba(58,46,46,0.15)] border border-white/50">
+                <div class="flex flex-col items-center mb-6">
+                    <div class="w-20 h-20 rounded-full bg-accent/20 mb-4 overflow-hidden border-4 border-white shadow-lg">
+                        <img src="data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23CFAAA2'/%3E%3Ccircle cx='40' cy='32' r='12' fill='%23FFFFFF'/%3E%3Cpath d='M20 56C20 48 24 44 32 44C40 44 44 48 44 56' fill='%23FFFFFF'/%3E%3C/svg%3E" 
+                             alt="Maria S." 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-text-dark">Maria S.</h3>
+                </div>
+                <p class="text-text-secondary leading-[1.6] text-base italic relative">
+                    <svg class="w-6 h-6 text-accent/30 absolute -top-2 -left-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/>
+                    </svg>
+                    "Profissional incrível! A drenagem linfática fez toda diferença na minha recuperação. Super recomendo!"
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-text-dark text-bg-primary py-16">
+    <div class="max-w-[1000px] mx-auto px-6 lg:px-8">
+        <div class="flex flex-col items-center text-center">
+            <!-- Logo -->
+            <div class="flex justify-center mb-8">
+    <img 
+        src="logo white mauriceia.png" 
+        alt="Logo Mauriceia Babo" 
+        class="w-40 sm:w-48 md:w-56 lg:w-64 h-auto object-contain"
+    >
+</div>
+
+
+            <p class="text-bg-primary/80 mb-8 max-w-md">Estética Facial & Corporal<br>Porto Nacional/TO</p>
+            
+            <!-- Links -->
+            <div class="flex flex-wrap justify-center gap-6 mb-8">
+                <a href="#inicio" class="text-bg-primary no-underline transition-colors duration-300 hover:text-accent font-medium">Início</a>
+                <a href="#servicos" class="text-bg-primary no-underline transition-colors duration-300 hover:text-accent font-medium">Serviços</a>
+                <a href="#agendamento" class="text-bg-primary no-underline transition-colors duration-300 hover:text-accent font-medium">Agendar</a>
+                <a href="#localizacao" class="text-bg-primary no-underline transition-colors duration-300 hover:text-accent font-medium">Localização</a>
+            </div>
+            
+            <!-- Redes sociais -->
+            <div class="flex gap-6 mb-8">
+                <a href="https://instagram.com/mauriceiababo.estetica" target="_blank" rel="noopener" aria-label="Instagram" class="transition-transform duration-300 hover:scale-110 hover:text-accent">
+                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/5563999999999" target="_blank" rel="noopener" aria-label="WhatsApp" class="transition-transform duration-300 hover:scale-110 hover:text-accent">
+                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.472 14.382C17.015 14.153 14.98 13.146 14.572 13.015C14.164 12.884 13.868 12.819 13.572 13.277C13.276 13.735 12.487 14.692 12.24 14.988C11.993 15.284 11.746 15.333 11.289 15.055C10.832 14.826 9.39 14.363 7.693 12.854C6.364 11.682 5.493 10.244 5.246 9.786C4.999 9.328 5.221 9.097 5.45 8.868C5.654 8.664 5.907 8.361 6.136 8.114C6.365 7.867 6.438 7.669 6.569 7.373C6.7 7.077 6.635 6.83 6.521 6.601C6.407 6.372 5.493 4.337 5.134 3.421C4.775 2.505 4.416 2.628 4.169 2.628H3.397C3.101 2.628 2.643 2.742 2.235 3.2C1.827 3.658 0.771 4.665 0.771 6.7C0.771 8.735 2.284 10.721 2.513 11.017C2.742 11.313 5.493 15.525 9.614 17.364C10.537 17.758 11.265 17.979 11.834 18.151C12.757 18.447 13.608 18.398 14.283 18.284C15.033 18.16 16.679 17.413 17.038 16.591C17.397 15.769 17.397 15.055 17.283 14.875C17.169 14.695 16.929 14.611 16.472 14.382ZM12.145 21.749H12.096C10.341 21.749 8.635 21.282 7.144 20.386L6.785 20.165L3.299 21.059L4.193 17.66L3.94 17.276C2.963 15.736 2.45 13.981 2.45 12.178C2.45 7.225 6.473 3.2 11.426 3.2C13.818 3.2 16.063 4.091 17.766 5.794C19.469 7.497 20.36 9.742 20.36 12.134C20.36 17.087 16.337 21.11 11.384 21.11M20.998 3.002C18.902 0.906 16.063 -0.2 13.072 -0.2C6.374 -0.2 0.906 5.268 0.906 11.966C0.906 14.077 1.487 16.139 2.596 17.931L0.8 24L6.982 22.229C8.708 23.263 10.696 23.804 12.72 23.804H12.769C19.467 23.804 24.935 18.336 24.935 11.638C24.935 8.647 23.829 5.808 21.733 3.712"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="text-center pt-8 border-t border-[rgba(244,234,230,0.2)] w-full">
+                <p class="text-bg-primary/60 text-sm">&copy; 2024 Mauriceia Babo Estética. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Snackbar -->
+    <div id="snackbar" class="fixed bottom-6 left-1/2 -translate-x-1/2 translate-y-[100px] bg-text-dark text-white py-4 px-8 rounded-xl shadow-[0_8px_24px_rgba(58,46,46,0.3)] opacity-0 transition-all duration-300 z-[2000]"></div>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Snackbar function
+        function showSnackbar(message, isError = false) {
+            const snackbar = document.getElementById('snackbar');
+            snackbar.textContent = message;
+            if (isError) snackbar.style.backgroundColor = '#d32f2f';
+            else snackbar.style.backgroundColor = '#3A2E2E';
+            
+            snackbar.classList.remove('translate-y-[100px]', 'opacity-0');
+            snackbar.classList.add('translate-y-0', 'opacity-100');
+            
+            setTimeout(() => {
+                snackbar.classList.remove('translate-y-0', 'opacity-100');
+                snackbar.classList.add('translate-y-[100px]', 'opacity-0');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
